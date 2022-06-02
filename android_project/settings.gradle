@@ -4,7 +4,7 @@ dependencyResolutionManagement {
         google()
         mavenCentral()
         maven {
-            url '<LOCAL_FLUTTER_MAVEN>'
+            url '../my_flutter_module/build/host/outputs/repo'
         }
         maven {
             url "https://storage.googleapis.com/download.flutter.io"
