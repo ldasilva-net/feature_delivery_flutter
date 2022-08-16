@@ -99,6 +99,10 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            Icon(
+              (_counter % 2 == 0) ? Icons.android : Icons.flutter_dash,
+              size: 60,
+            ),
           ],
         ),
       ),

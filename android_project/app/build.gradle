@@ -51,6 +51,11 @@ android {
         viewBinding true
     }
     dynamicFeatures = [':dynamicfeature']
+    /*
+    packagingOptions {
+        //resources.excludes.add("META-INF/*")
+        //resources.excludes.add("DebugProbesKt.bin")
+    }*/
 }
 
 dependencies {
